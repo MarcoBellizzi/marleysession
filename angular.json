@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "marleysession"
+  "defaultProject": "marleysession",
+  "cli": {
+    "analytics": "262d3ce0-552d-44a7-b6c4-f47cd893ea31"
+  }
 }
