@@ -1,12 +1,10 @@
-/* Contenitore principale */
-.image-container {
-    display: flex;        /* Flexbox per disporre gli elementi in verticale */
+.container {
+    display: flex;          /* Flexbox per disporre gli elementi in verticale */
     flex-direction: column; /* Metti le immagini una sotto l'altra */
     padding-bottom: 0;
 
 }
 
-/* Contenitore per ogni immagine e testo */
 .image-text {
     position: relative;   /* Posizione relativa per poter posizionare il testo sopra */
 }
@@ -17,7 +15,7 @@
 }
 
 .image-text img {
-    width: 100%;          /* L'immagine occupa il 100% della larghezza del suo contenitore */
+    width: 100%;
     height: 500px;
     object-position: center;
     object-fit: cover;
@@ -28,29 +26,7 @@
     top: 50%;             /* Centra il testo verticalmente */
     left: 50%;            /* Centra il testo orizzontalmente */
     transform: translate(-50%, -50%); /* Corregge la posizione esatta */
-    color: white;         /* Colore del testo (puoi cambiarlo a seconda dell'immagine) */
-    font-size: 4rem;      /* Imposta la dimensione del testo (modifica come necessario) */
-    font-weight: bold;    /* Imposta il testo in grassetto */
-    text-align: center;   /* Centra il testo */
-}
-
-.text-black {
-    position: absolute;   /* Posiziona il testo sopra l'immagine */
-    top: 50%;             /* Centra il testo verticalmente */
-    left: 50%;            /* Centra il testo orizzontalmente */
-    transform: translate(-50%, -50%); /* Corregge la posizione esatta */
-    color: rgb(0, 0, 0);         /* Colore del testo (puoi cambiarlo a seconda dell'immagine) */
-    font-size: 4rem;      /* Imposta la dimensione del testo (modifica come necessario) */
-    font-weight: bold;    /* Imposta il testo in grassetto */
-    text-align: center;   /* Centra il testo */
-}
-
-.text-yellow {
-    position: absolute;   /* Posiziona il testo sopra l'immagine */
-    top: 50%;             /* Centra il testo verticalmente */
-    left: 50%;            /* Centra il testo orizzontalmente */
-    transform: translate(-50%, -50%); /* Corregge la posizione esatta */
-    color: rgb(255, 251, 0);         /* Colore del testo (puoi cambiarlo a seconda dell'immagine) */
+    color: black;       /* Colore del testo (puoi cambiarlo a seconda dell'immagine) */
     font-size: 4rem;      /* Imposta la dimensione del testo (modifica come necessario) */
     font-weight: bold;    /* Imposta il testo in grassetto */
     text-align: center;   /* Centra il testo */

@@ -1,15 +1,70 @@
 <app-menubar></app-menubar>
 
-<div class="image-container">
+<div class="container">
+
     <div class="image-text">
         <img src="assets/back.png">
-        <div class="text">Marley Session</div>
+        <div class="text" style="color: orange;">
+            Marley Session
+        </div>
     </div>
+
     <div class="only-text">
-        <div class="text-black">Una figata pazzesca</div>
+        <div class="text">
+            Una figata pazzesca
+        </div>
     </div>
+
+    <div class="image-text">
+        <img src="assets/back_3.jpg">
+        <div class="text" style="color: yellow;">
+            Eventi unici ogni settimana
+        </div>
+    </div>
+
+    <div class="only-text">
+        <div class="text" style="font-size: 2rem;">
+            Accedi alla sezione dedicata per scoprire i prossimi eventi
+            o vedere quelli passati
+            <div style="margin-top: 20px;">
+                <button pButton type="button" label="Scopri di più" 
+                    class="p-button-secondary" (click)='redirect("eventi")'></button>
+            </div>
+        </div>
+    </div>
+
     <div class="image-text">
         <img src="assets/back_2.png">
-        <div class="text-yellow">Un sacco di musica originale</div>
+        <div class="text" style="color: greenyellow;">
+            Un sacco di musica originale
+        </div>
     </div>
+
+    <div class="only-text">
+        <div class="text" style="font-size: 2rem;">
+            Scopri tutti gli artisti che fanno parte del movimento
+            <div style="margin-top: 20px;">
+                <button pButton type="button" label="Scopri di più" 
+                    class="p-button-secondary" (click)='redirect("artisti")'></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-text">
+        <img src="assets/back_4.jpg">
+        <div class="text" style="font-size: 3rem; color: blue;">
+            Se vieni ad un evento Niki ti offre una birra
+        </div>
+    </div>
+    
+    <div class="only-text">
+        <div class="text" style="font-size: 2rem;">
+            Guarda chi siamo, cosa facciamo e dove vogliamo andare
+            <div style="margin-top: 20px;">
+                <button pButton type="button" label="Vai" 
+                    class="p-button-secondary" (click)='redirect("chisiamo")'></button>
+            </div>
+        </div>
+    </div>
+
 </div>
