@@ -28,21 +28,21 @@ export class MenubarComponent implements OnInit {
       },
       {
         label: 'Eventi',
-        icon: 'pi pi-book',
+        icon: 'pi pi-ticket',
         command: (event: any) => {
           this.redirect('eventi');
         }
       },
       {
         label: 'Artisti',
-        icon: 'pi pi-book',
+        icon: 'pi pi-headphones',
         command: (event: any) => {
           this.redirect('artisti');
         }
       },
       {
         label: 'Chi siamo',
-        icon: 'pi pi-book',
+        icon: 'pi pi-users',
         command: (event: any) => {
           this.redirect('chisiamo');
         }
