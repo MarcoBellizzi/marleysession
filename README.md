@@ -1,5 +1,10 @@
 # Marleysession
 
+## Passi per aggiornare github pages
+
+ng build --prod --output-path docs --base-href /marleysession/
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
 ## Development server
