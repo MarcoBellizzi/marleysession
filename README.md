@@ -2,8 +2,7 @@
 
 ## Passi per aggiornare github pages
 
-ng build --output-path docs --base-href /marleysession/
-
+ng deploy --base-href=/marleysession/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
 
