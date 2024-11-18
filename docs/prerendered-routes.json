@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/",
+    "/artisti",
+    "/chisiamo",
+    "/eventi",
+    "/home"
+  ]
+}
