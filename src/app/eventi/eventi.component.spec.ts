@@ -8,12 +8,10 @@ describe('EventiComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EventiComponent ]
+      imports: [EventiComponent]
     })
     .compileComponents();
-  });
-
-  beforeEach(() => {
+    
     fixture = TestBed.createComponent(EventiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { MenubarComponent } from "../menubar/menubar.component";
 
 @Component({
   selector: 'app-chisiamo',
+  standalone: true,
+  imports: [MenubarComponent],
   templateUrl: './chisiamo.component.html',
-  styleUrls: ['./chisiamo.component.css']
+  styleUrl: './chisiamo.component.css'
 })
-export class ChisiamoComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class ChisiamoComponent {
 
 }

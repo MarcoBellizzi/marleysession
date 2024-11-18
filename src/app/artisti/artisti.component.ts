@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { MenubarComponent } from "../menubar/menubar.component";
 
 @Component({
   selector: 'app-artisti',
+  standalone: true,
+  imports: [MenubarComponent],
   templateUrl: './artisti.component.html',
-  styleUrls: ['./artisti.component.css']
+  styleUrl: './artisti.component.css'
 })
-export class ArtistiComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class ArtistiComponent {
 
 }
